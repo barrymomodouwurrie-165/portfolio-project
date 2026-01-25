@@ -3,13 +3,16 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    align-content: center;
     position: fixed;
-    top: 10px;
+    top: 0;
     left: 0;
     right: 0;
     border-bottom-width: 1px;
-    border-bottom-color: black;
+    border-bottom-color: rgb(205, 205, 205);
     border-bottom-style: solid;
+    background-color: rgb(219, 219, 219);
+    height: 60px;
 
 }
 .header-image{
@@ -52,14 +55,64 @@ nav{
 }
 .left-container{
     margin-left: 35px;
+    margin-right: 20px;
+    width: 400px;
 }
-.welcome-msg{
+.text-part{
+    margin-bottom: 200px;
+}
+.msg-1,.msg-2{
     font-size: 13px;
     margin-bottom: 15px;
+}
+.msg-2{
+    color: blue;
+    font-weight: 500;
 }
 h1{
     margin-top: 0;
 }
 span{
     color: blue;
+}
+.social-skills .social div{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+.social-skills{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    column-gap: 10px;
+}
+.skills{
+    display: flex;
+    column-gap: 10px;
+}
+
+.logos{
+    height: 50px;
+    width: 50px;
+}
+.skill-logos{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.figma-logo{
+    object-position: right;
+}
+.right-container{
+    flex: 1;
+    padding-left: 200px;
+    
+}
+.main-picture{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4 1px black;
 }
