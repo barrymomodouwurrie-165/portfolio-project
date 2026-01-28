@@ -74,15 +74,26 @@ h1{
 }
 span{
     color: blue;
+    box-shadow: 0.5px 0.8px 1px rgba(128, 128, 128, 0.331);
 }
-.social-skills .social div{
-    height: 50px;
-    width: 50px;
+.social-skills .social div,
+.skills-1 .skills div{
+    height: 60px;
+    width: 60px;
     background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 1px 2px 1px rgba(128, 128, 128, 0.438);
+
+}
+
+.social-div{
+    border-radius: 10px;
 }
 .social-skills{
     display: flex;
     justify-content: space-between;
+    column-gap: 60px;
 }
 .social{
     display: flex;
@@ -96,14 +107,40 @@ span{
 .logos{
     height: 50px;
     width: 50px;
+    object-fit: cover;
+}
+.logo-1{
+    margin-top: 5px;
+    height: 45px;
+    width: 50px;
+    object-fit: cover;
+}
+.logo-3{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    margin-top: -5px;
+}
+.logo-2{
+    margin-top: 5px;
+    height: 45px;
+    width: 50px;
+    object-fit: cover;
 }
 .skill-logos{
     height: 50px;
     width: 50px;
     object-fit: cover;
 }
-.figma-logo{
+.ai-logo{
     object-position: right;
+}
+.figma-logo{
+    height: 40px;
+    margin-top: 10px;
+}
+.react-logo{
+    margin-top: 5px;
 }
 .right-container{
     flex: 1;
