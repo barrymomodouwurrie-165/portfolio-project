@@ -14,6 +14,9 @@ nav {
   background-color: rgb(219, 219, 219);
   height: 60px;
 }
+.container{
+  margin-bottom: 100px;
+}
 .header-image {
   height: 40px;
   width: 40px;
@@ -24,6 +27,7 @@ nav {
 .header-title {
   flex: 1;
   font-weight: 900;
+  color: rgba(0, 0, 255, 0.653);
 }
 .left-side {
   width: 110px;
@@ -53,7 +57,7 @@ nav {
 }
 
 .left-container {
-  width: 300px;
+  width: 400px;
   padding-left: 130px;
 }
 .intro-message {
@@ -64,6 +68,7 @@ nav {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 100px;
+  color: rgba(0, 0, 255, 0.653);
 }
 .intro-text {
   width: 300px;
@@ -72,7 +77,10 @@ nav {
 }
 .right-container {
   flex: 1;
-  padding-left: 200px;
+  padding-left: 100px;
+  border-left-width: 1.5px;
+  border-left-color: rgba(0, 0, 0, 0.169);
+  border-left-style: solid;
 }
 .names {
   display: flex;
@@ -83,6 +91,18 @@ nav {
   margin-top: 5px;
   border-radius: 6px;
   border: solid 1px rgba(128, 128, 128, 0.596);
+}
+.submit-button{
+  padding: 10px 150px;
+  margin-top: 5px;
+  border-radius: 6px;
+  margin-left: 70px;
+  background-color: rgba(0, 0, 255, 0.653);
+  border: none;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  margin-top: 20px;
 }
 .input-sizes {
   padding: 10px 168px;

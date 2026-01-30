@@ -13,7 +13,6 @@ nav{
     border-bottom-style: solid;
     background-color: rgb(219, 219, 219);
     height: 60px;
-
 }
 .header-image{
     height: 40px;
@@ -25,6 +24,7 @@ nav{
 .header-title{
     flex: 1;
     font-weight: 900;
+    color: rgba(0, 0, 255, 0.653);
 
 }
 .left-side{
