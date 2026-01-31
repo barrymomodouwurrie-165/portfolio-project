@@ -1,155 +1,221 @@
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(205, 205, 205);
-    border-bottom-style: solid;
-    background-color: rgb(219, 219, 219);
-    height: 60px;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-color: rgb(205, 205, 205);
+  border-bottom-style: solid;
+  background-color: rgb(219, 219, 219);
+  height: 60px;
 }
-.header-image{
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
-    object-fit: cover;
-    margin-right: 6px;
+.header-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-right: 6px;
 }
-.header-title{
-    flex: 1;
-    font-weight: 900;
-    color: rgba(0, 0, 255, 0.653);
-
+.header-title {
+  flex: 1;
+  font-weight: 900;
+  color: rgba(0, 0, 255, 0.653);
 }
-.left-side{
-    width: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-left: 20px;
+.left-side {
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
 }
-.right-side{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex: 1;
-    max-width: 350px;
-    margin-right: 50px;
-    
+.right-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 350px;
+  margin-right: 50px;
 }
-.right-side .links a{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
+.right-side .links a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
 }
-.main-container{
-    display: flex;
-    flex-direction: row;
+.main-container {
+  display: flex;
+  flex-direction: row;
 }
-.left-container{
-    margin-left: 35px;
-    margin-right: 20px;
-    width: 400px;
+.left-container {
+  margin-left: 35px;
+  margin-right: 20px;
+  width: 400px;
 }
-.text-part{
-    margin-bottom: 200px;
+.text-part {
+  margin-bottom: 200px;
 }
-.msg-1,.msg-2{
-    font-size: 13px;
-    margin-bottom: 15px;
+.msg-1,
+.msg-2 {
+  font-size: 13px;
+  margin-bottom: 15px;
 }
-.msg-2{
-    color: blue;
-    font-weight: 500;
+.msg-2 {
+  color: blue;
+  font-weight: 500;
 }
-h1{
-    margin-top: 0;
+h1 {
+  margin-top: 0;
 }
-span{
-    color: blue;
-    box-shadow: 0.5px 0.8px 1px rgba(128, 128, 128, 0.331);
+span {
+  color: blue;
+  box-shadow: 0.5px 0.8px 1px rgba(128, 128, 128, 0.331);
 }
 .social-skills .social div,
-.skills-1 .skills div{
-    height: 60px;
-    width: 60px;
-    background-color: white;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 1px 2px 1px rgba(128, 128, 128, 0.438);
-
+.skills-1 .skills div {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 2px 1px rgba(128, 128, 128, 0.438);
 }
 
-.social-div{
-    border-radius: 10px;
+.social-div {
+  border-radius: 10px;
 }
-.social-skills{
-    display: flex;
-    justify-content: space-between;
-    column-gap: 60px;
+.social-skills {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
 }
-.social{
-    display: flex;
-    column-gap: 10px;
+.social {
+  display: flex;
+  column-gap: 10px;
 }
-.skills{
-    display: flex;
-    column-gap: 10px;
+.skills {
+  display: flex;
+  column-gap: 10px;
 }
 
-.logos{
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
+.logos {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
 }
-.logo-1{
-    margin-top: 5px;
-    height: 45px;
-    width: 50px;
-    object-fit: cover;
+.logo-1 {
+  margin-top: 5px;
+  height: 45px;
+  width: 50px;
+  object-fit: cover;
 }
-.logo-3{
-    height: 60px;
-    width: 60px;
-    object-fit: cover;
-    margin-top: -5px;
+.logo-3 {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-top: -5px;
 }
-.logo-2{
-    margin-top: 5px;
-    height: 45px;
-    width: 50px;
-    object-fit: cover;
+.logo-2 {
+  margin-top: 5px;
+  height: 45px;
+  width: 50px;
+  object-fit: cover;
 }
-.skill-logos{
-    height: 50px;
-    width: 50px;
-    object-fit: cover;
+.skill-logos {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
 }
-.ai-logo{
-    object-position: right;
+.ai-logo {
+  object-position: right;
 }
-.figma-logo{
-    height: 40px;
-    margin-top: 10px;
+.figma-logo {
+  height: 40px;
+  margin-top: 10px;
 }
-.react-logo{
-    margin-top: 5px;
+.react-logo {
+  margin-top: 5px;
 }
-.right-container{
-    flex: 1;
-    padding-left: 200px;
-    
+.right-container {
+  flex: 1;
+  padding-left: 200px;
 }
-.main-picture{
+.main-picture {
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4 1px black;
+}
+@media screen and (max-width: 768px) {
+  .right-side {
+    margin-right: 5px;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+  .left-container {
+    width: 700px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+  }
+
+  .text-part {
+    margin-bottom: 0;
     width: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4 1px black;
+    margin-bottom: -20px;
+  }
+  .social-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+  }
+  .right-container {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  .right-side {
+    margin-right: 0;
+  }
+  .left-side {
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 5px;
+}
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 20px;
+    width: 350px;
+  }
+  .text-part {
+    margin-left: 35px;
+    margin-bottom: 0;
+  }
+  .social-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-container {
+    padding-left: 40px;
+  }
 }
