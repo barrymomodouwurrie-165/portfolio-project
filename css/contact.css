@@ -14,9 +14,6 @@ nav {
   background-color: rgb(219, 219, 219);
   height: 60px;
 }
-.container{
-  margin-bottom: 100px;
-}
 .header-image {
   height: 40px;
   width: 40px;
@@ -54,6 +51,7 @@ nav {
 .container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .left-container {
@@ -117,3 +115,65 @@ span {
 .right-container p {
   margin-bottom: 0;
 }
+@media (max-width: 768px){
+ .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.left-container {
+  padding-left: 200px;
+}
+.intro-message {
+  margin-bottom: 50px;
+}
+.intro-text {
+  width: 400px;
+  margin-left: -40px;
+}
+.right-container {
+  border-top-width: 1.5px;
+  border-top-color: rgba(0, 0, 0, 0.169);
+  border-top-style: solid;
+  border-left-style: none;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.names-input {
+  padding:10px 30px;
+}
+.submit-button{
+  padding: 10px 120px;
+}
+.input-sizes {
+  padding: 10px 147px;
+  
+}
+}
+@media (max-width:414px){
+  .right-side {
+  margin-right: 10px;
+  }
+  .right-container{
+    padding-left: 0;
+    margin-left: 50px;
+    width: 400px;
+  }
+  .left-container {
+  padding-left: 100px;
+}
+  .names-input {
+  padding:10px 16px;
+}
+.submit-button{
+  padding: 10px 100px;
+}
+.input-sizes {
+  padding: 10px 118px;
+}
+.text-area-input{
+  padding: 10px 124px;
+}
+}
+
