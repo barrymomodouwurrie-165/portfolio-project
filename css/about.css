@@ -96,3 +96,46 @@ span {
   margin-right: 30px;
   flex: 1;
 }
+@media (max-width: 768px){
+  .main-section {
+  display: flex;
+  flex-direction: column;
+}
+.left-section {
+  width: 500px;
+  margin-left: 130px;
+  margin-bottom: 30px;
+}
+.right-section {
+  margin-right: 0;
+  width: 500px;
+  margin-left: 130px;
+}
+.descriptions {
+  margin-top: 0;
+  width: 350px;
+}
+span {
+  margin-right: 0;
+}
+}
+@media (max-width: 414px){
+   .left-section {
+  margin-left: 0px;
+}
+.right-section {
+  margin-right: 0;
+  width: 500px;
+  margin-left: 0;
+}
+.image {
+  height: 90%;
+  width: 90%;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: 20px;
+}
+span {
+  margin-right: 10px;
+}
+}
